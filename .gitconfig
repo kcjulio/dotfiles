@@ -1,0 +1,18 @@
+[user]
+	name = Julio Cesar Kochhann
+	email = juliokochhann@hotmail.com
+[core]
+	editor = nano
+	autocrlf = input
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[init]
+	defaultBranch = main
+[alias]
+	last = log -1 HEAD
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
