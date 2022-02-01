@@ -125,4 +125,3 @@ eval `dircolors ~/.dir_colors/dircolors`
 # insert newline before prompt
 PS1=${PS1%?}
 PS1=${PS1%?}\n'$ '
-alias config='/usr/bin/git --git-dir=/home/julio/.cfg/ --work-tree=/home/julio'
