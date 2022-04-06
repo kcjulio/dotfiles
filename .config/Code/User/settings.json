@@ -1,4 +1,8 @@
 {
     "workbench.colorTheme": "Ayu Mirage",
-    "editor.rulers": [80,120]
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.fontFamily": "'FiraMono Nerd Font','Droid Sans Mono', 'monospace', monospace"
 }
