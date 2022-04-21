@@ -8,8 +8,10 @@ case $- in
       *) return;;
 esac
 
+XC8=(/opt/microchip/xc8/*/bin/)
+
 # PATH variable
-export PATH=/opt/microchip/xc8/v2.32/bin/:$PATH
+export PATH=${XC8}:$PATH
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
