@@ -1,8 +1,13 @@
 {
-    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.semanticHighlighting.enabled": false,
     "editor.rulers": [
         80,
         120
     ],
-    "editor.fontFamily": "'FiraMono Nerd Font','Droid Sans Mono', 'monospace', monospace"
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "'Cousine','Fira Mono','Droid Sans Mono', 'monospace', monospace",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "terminal.integrated.persistentSessionReviveProcess": "never"
 }
